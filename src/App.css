@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mouse {
+  width: 10px;
+  height: 10px;
+  background: #de2d2d;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  mix-blend-mode:multiply;
+}
+
+h2:hover~.mouse {
+  transform: scale(2);
+}
